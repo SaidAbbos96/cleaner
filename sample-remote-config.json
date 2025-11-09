@@ -1,0 +1,19 @@
+{
+    "domains": {
+        "example.com": [
+            ".ad-banner",
+            "#sidebar-ads",
+            "[data-ad-container]"
+        ],
+        "news-site.com": [
+            ".advertisement",
+            ".promo-box",
+            "[class*='sponsored']"
+        ]
+    },
+    "globalSelectors": [
+        ".google-ads",
+        "[data-ads]",
+        ".ad-wrapper"
+    ]
+}

@@ -1,0 +1,38 @@
+{
+    "domains": {
+        "facebook.com": [
+            "[role='feed'] div[data-pagelet*='Feed'] > div:not([data-sigil]):not(.userContentWrapper):not(.mfeed_pivots_message feed-story-highlight-candidate)",
+            "div[data-pagelet='RightRail']",
+            "div[data-pagelet='Stories']",
+            ".fbAdUnit",
+            "[data-testid='placementTracking']",
+            "div[aria-label='Sponsored']",
+            "div[aria-label='Sponsorlu']"
+        ],
+        "twitter.com": [
+            "[data-testid='placementTracking']",
+            "[aria-label='Timeline: Trending now']",
+            "[aria-label='Who to follow']",
+            "[aria-label='Kimi takip etmeli']",
+            "div[data-testid='primaryColumn'] > div > div > div > div > div > div:nth-child(4)"
+        ],
+        "youtube.com": [
+            "ytd-rich-item-renderer:has(ytd-display-ad-renderer)",
+            "ytd-ad-slot-renderer",
+            "#player-ads",
+            "ytd-companion-slot-renderer",
+            "#masthead-ad"
+        ],
+        "instagram.com": [
+            "article[data-tag='article'] > div > div > div > div:not([style]):not(:first-child)",
+            "div[role='button'] > div > div[style*='868686']"
+        ]
+    },
+    "globalSelectors": [
+        ".ad-container",
+        ".advertisement",
+        ".adsbygoogle",
+        "[class*='ad-wrapper']",
+        "[id*='ad-']"
+    ]
+}
